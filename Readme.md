@@ -3,7 +3,8 @@
 **Description:** A PowerShell script (or container) to automatically pull Azure AD Sign-In Logs from the Graph API and write to a SQL Server continuously. 
 
 ## Microsoft SQL
-https://github.com/NickJongens/AzureADSignInsLogger/MSSQL
+[Microsoft SQL Branch](https://github.com/NickJongens/AzureADSignInsLogger/tree/MSSQL)
 
 ## MySQL/MariaDB
-https://github.com/NickJongens/AzureADSignInsLogger/MySQL
+[MySQL Branch](https://github.com/NickJongens/AzureADSignInsLogger/tree/MySQL)
+
