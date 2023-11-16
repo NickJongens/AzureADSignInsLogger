@@ -1,0 +1,41 @@
+/* Set the database to create the table in - <Database> */
+USE <Database>;
+
+/* Create the Table to create - <TableName> */
+CREATE TABLE <TableName> (
+    Id VARCHAR(255),
+    CreatedDateTime VARCHAR(255),
+    UserDisplayName VARCHAR(255),
+    UserPrincipalName VARCHAR(255),
+    UserId VARCHAR(255),
+    AppId VARCHAR(255),
+    AppDisplayName VARCHAR(255),
+    IpAddress VARCHAR(255),
+    ClientAppUsed VARCHAR(255),
+    CorrelationId VARCHAR(255),
+    ConditionalAccessStatus VARCHAR(255),
+    IsInteractive VARCHAR(255),
+    RiskDetail VARCHAR(255),
+    RiskLevelAggregated VARCHAR(255),
+    RiskLevelDuringSignIn VARCHAR(255),
+    RiskState VARCHAR(255),
+    RiskEventTypes VARCHAR(255),
+    RiskEventTypes_v2 VARCHAR(255),
+    ResourceDisplayName VARCHAR(255),
+    ResourceId VARCHAR(255),
+    StatusCode VARCHAR(255),
+    StatusFailureReason VARCHAR(255),
+    StatusAdditionalDetails VARCHAR(255),
+    DeviceId VARCHAR(255),
+    DeviceDisplayName VARCHAR(255),
+    DeviceOperatingSystem VARCHAR(255),
+    DeviceBrowser VARCHAR(255),
+    DeviceIsCompliant VARCHAR(255),
+    DeviceIsManaged VARCHAR(255),
+    DeviceTrustType VARCHAR(255),
+    LocationCity VARCHAR(255),
+    LocationState VARCHAR(255),
+    LocationCountryOrRegion VARCHAR(255),
+    LocationLatitude VARCHAR(255),
+    LocationLongitude VARCHAR(255)
+);
