@@ -1,6 +1,6 @@
 # AzureAD-Sign-In-Log-MSSQL-Exporter
 
-**Description:** A PowerShell script (or container) to automatically pull Azure AD Sign-In Logs from the Graph API and write to an MS SQL Server continuously. This is used by myself for a sign-in map that shows worldwide tenancy sign-ins.
+**Description:** A PowerShell script (or container) to automatically pull Azure AD Sign-In Logs from the Graph API and write to an MS SQL Server continuously e.g. every 5 minutes. I use this for a sign-in map that shows worldwide tenancy sign-ins.
 
 **Based off:**
 https://github.com/NickJongens/PSDocker
